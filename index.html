@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>ByCar</title>
+</head>
+<body>
+    <header>
+        
+            <img src="./assets/logo.svg" alt="">
+            <h1>ByeCar</h1>
+        
+    </header>
+
+    <section>
+        <div class="left">
+            <h2>Ter <b> uma moto </b>  por assinatura <br> nunca foi tão fácil!</h2>
+            <img src="./assets/ft1.PNG" alt="">
+
+        </div>
+        
+        <div class="right">
+            <h2>Conheça nossas <span>motos!</span> </h2>
+
+            <div class="carousel">
+                <button onclick="goBack()"> <img src="./assets/buttonleft.svg" alt=""></button>
+
+                <ul class="carousel-container">
+                    <li class="carousel-item">
+                        <h2>Scooter Elétrica Voltz EV1</h2>
+                        <img src="./assets/volts.svg" alt="">
+                        <div class="info">
+                            <h1>A partir de</h1>
+                            <span>R$ 619,90</span>
+                            <h3>Plano de 30 meses</h3>
+                        </div>
+
+                    </li>
+
+                    <li class="carousel-item">
+                        <h2>Honda CB 500X</h2>
+                        <img src="./assets/honda.svg" alt="">
+                        <div class="info">
+                            <h1>A partir de</h1>
+                            <span>R$ 619,90</span>
+                            <h3>Plano de 30 meses</h3>
+                        </div>
+
+                    </li>
+                </ul>
+                <button onclick="next()"> <img src="./assets/buttonright.svg" alt=""></button>
+            </div>
+
+            <button id="saiba">Saiba mais!</button>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

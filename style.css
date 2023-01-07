@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 12px;
+    align-items: center;
+    display: flex;
+    background-color: #303030;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    column-gap: 35px;
+
+}
+header h1 {
+    font-size: 48px;
+    
+}
+
+section{
+    display: flex;
+    padding: 3rem;
+    column-gap: 2rem;
+    justify-content: space-around;
+    
+
+}
+
+.left, .right{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.left h2, .right h2{
+    color: #265E70;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.right span{
+    font-weight: bold;
+    color: #4DBCE9;
+}
+
+
+
+.carousel{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+
+}
+
+.carousel button {
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carousel-item{
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: #4DBCE9BF;
+    border-radius: 15px;
+    min-width: 450px;
+    
+}
+
+.carousel-item span{
+    font-size: 18pt;
+   border-radius: 5px;
+   background-color: #ffffff;
+   color: #265E70;
+   padding: 8px;
+   font-weight: bold;
+    
+}
+
+.info{
+    padding: 10px;
+}
+.info h1, h3{
+    margin: 10px;
+    font-weight: lighter;
+}
+
+
+.carousel-item h2{
+    color: white;
+}
+
+.carousel-container{
+    
+    list-style: none;
+    display: flex;
+    max-width: 450px;
+    overflow-x: hidden;
+}
+
+#saiba{
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #4DBCE9;
+    cursor: pointer;
+    font-weight: bolder;
+}
